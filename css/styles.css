@@ -1,0 +1,152 @@
+
+body{
+    font-family: Mulish;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.top-text{
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: red;
+    /* margin:auto 0 auto 0; */
+    /* line-height: 1.5; */
+}
+
+.header{
+    padding: 10% 0%;
+    text-align: center;
+}
+
+#title{
+    background-color:  #132d4d;
+    color: #FFC107;
+    background-image: url("../img/bg6.jpg");
+    /* height:300px; */
+    /* padding: 6rem; */
+    
+    /* text-align: center; */
+}
+
+.nav-link{
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.logo{
+    
+    width:28rem;
+    max-width: 100%;
+    height:auto;
+    margin: 2rem 0;
+}
+#customers{
+    text-align:center;
+    margin:40px 10px;
+}
+#shopkeepers{
+    text-align:center;
+    margin:40px 10px;
+}
+#testimonials{
+    background-color: #132d4d;
+    background-image: url("../img/bg3.jpg");
+    color: white;
+    text-align:center;
+    padding:80px 50px;
+    font-size:1.5rem;
+}
+.author{
+    color:white;
+}
+
+.carousel-item{
+    color:#FFC107;
+}
+
+#pricing{
+    background-color: #132d4d;
+    background-image: url("../img/bg6.jpg");
+    color: white;
+    text-align:center;
+    padding:50px;
+    font-size:1.5rem;
+}
+h2{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.card{
+    background-color:#132d4d;
+    color:white;
+    border-radius: 10%;
+    border:2px solid ;
+    margin:2rem 0;
+    padding:1rem 0;
+}
+/* @media only screen and (max-width:800px){
+    .card{
+        min-width: 80%;
+    } 
+} */
+.card:hover{
+    background-color:white;
+    color:#132d4d;
+}
+.feature-item{
+    padding:40px 50px;
+    
+}
+
+.icon{
+    font-size:4rem;
+    color: #132d4d;
+}
+
+
+.icon:hover{
+    color:black;
+}
+
+.container-fluid{
+    padding:3% 10%; 
+
+}
+
+#cta {
+    text-align: center;
+    color: #FFC107;
+    padding: 2rem 0;
+}
+#contactus{
+    text-align: center;
+    /* color: #FFC107; */
+    background-color: white;
+    padding: 2rem 0;
+    max-width: 80%;
+    margin:0 auto;
+}
+.team-header{
+    padding: 2% 0%;
+    /* text-align: center; */
+}
+.team-item{
+    text-align:center;
+}
+
+@media only screen and (min-width:800px){
+    .team-item{
+        text-align:start;
+    } 
+}
+
+#footer{
+    background-color: #132d4d;
+    text-align: center;
+    margin: 0 0 0 0;
+    color: white;
+}
+.footer-para{
+    margin-bottom: 0;
+}
